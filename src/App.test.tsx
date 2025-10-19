@@ -2,8 +2,14 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders task manager header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const headerElement = screen.getByText(/Task Manager/i);
+  expect(headerElement).toBeInTheDocument();
+});
+
+test('renders new task button', () => {
+  render(<App />);
+  const buttonElement = screen.getByText(/New Task/i);
+  expect(buttonElement).toBeInTheDocument();
 });
