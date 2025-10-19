@@ -44,3 +44,27 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Task 3 - React Web UI
+
+## Overview
+A modern React TypeScript frontend for the Task Management API with Ant Design components.
+
+## Features
+- ✅ View all tasks in a responsive table
+- ✅ Create new tasks with form validation
+- ✅ Search tasks by name
+- ✅ Execute tasks and view output
+- ✅ Delete tasks with confirmation
+- ✅ View detailed task information and execution history
+- ✅ Responsive design with Ant Design
+
+## Prerequisites
+- Node.js 16+
+- Backend API running on http://localhost:8081
+
+## Installation & Setup
+
+### 1. Install Dependencies
+```bash
+npm install
